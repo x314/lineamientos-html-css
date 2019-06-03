@@ -1,6 +1,6 @@
 # CSS
 
-### Mejores prácticas
+### Buenas prácticas
 - Usar tabulaciones con dos espacios, son la única forma de garantizar que el código se reproduzca de la misma manera en cualquier entorno.
 - Al agrupar los selectores, mantenga los selectores individuales en una sola línea.
 - Incluya un espacio antes de la apertura de los bloques de declaración para legibilidad.
