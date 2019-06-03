@@ -1,5 +1,6 @@
 # HTML
 
+### Plantilla básica
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -122,7 +123,7 @@ Según la especificación de HTML5, no es necesario especificar un tipo cuando s
 > [Twitter card validator](https://cards-dev.twitter.com/validator)
 
 
-### Mejores prácticas
+### Buenas prácticas
 **Usar tabulaciones con dos espacios:** son la única forma de garantizar que el código se reproduzca de la misma manera en cualquier entorno.  
 **Siempre usar comillas dobles:** nunca comillas simples, en los atributos.  
 **No incluya una barra inclinada** en los elementos de cierre automático (por ejemplo, `<img>`).  
