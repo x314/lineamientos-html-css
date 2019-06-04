@@ -2,24 +2,24 @@
 
 ### Estructura de archivos
 ````text
-styles/
+sass/
 |
 |-- base/
+|   |-- _variables.scss
 |   |-- _utility.scss
 |   |-- _colors.scss
 |   |-- _typography.scss
-|   |-- _buttons.scss
 |   ...
 |
 |-- layout/
-|   |-- header.scss
-|   |-- footer.scss
-|   |-- nav.scss
+|   |-- _footer.scss
+|   |-- _header.scss
+|   |-- _sidebar.scss
 |   ...
 |
 |-- components/
-|   |-- _user.scss
 |   |-- _login.scss
+|   |-- _user.scss
 |   ...
 |
 |-- vendor/
@@ -36,38 +36,13 @@ En la carpeta **components** colocamos todos los modulos que se repiten a lo lar
 
 En el caso de proyectos viejos con grandes archivos CSS, es recomendable intentar reordenar los estilos en archivos y si esto no es posible generar un índice al principio que nos indique que estilos podemos encontrar en el archivo.
 
-### BEM
-BEM es una de las tantas convenciones que existen para nombrar a nuestras clases CSS.
-Si utilizamos BEM correctamente nuestro CSS sera más claro y semantico.
-```css
-// CSS
-
-// Bloque
-.user-avatar{
-    display: inline-block;
-    border: 2px solid black;
-}
-
-// Elemento
-.user-avatar__image{
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.user-avatar__label{
-    color: green;
-    text-transform: uppercase;
-}
-
-// Modificador
-.user-avatar--big{
-    border: 5px solid black;
-}
-
-
-// HTML
-div.user-avatar.user-avatar--big
-    img.user-avatar__image
-    span.user-avatar__label
+### Compilar SASS
+Concatenación CSS
+```bash
+sass --watch sass/main.scss css/main.css
 ```
 
+Minificado CSS
+```bash
+sass --watch sass/main.scss css/main.css --style compressed
+```

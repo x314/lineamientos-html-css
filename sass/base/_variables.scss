@@ -1,0 +1,37 @@
+
+// Typography
+$base-font-family: 'Open Sans', helvetica, arial, sans-serif;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 16px;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$blue: #477dca;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+$white: #fff;
+$black: #000;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $light-gray;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: #fff;
+$secondary-background-color: tint($base-border-color, 75%);

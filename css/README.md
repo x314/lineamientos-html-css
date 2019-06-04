@@ -1,5 +1,41 @@
 # CSS
 
+### BEM
+BEM es una convención de nomenclatura para nuestras clases CSS.
+Si utilizamos BEM correctamente nuestro CSS sera más claro y semántico.
+```css
+// CSS
+
+// Bloque
+.user-avatar{
+    display: inline-block;
+    border: 2px solid black;
+}
+
+// Elemento
+.user-avatar__image{
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.user-avatar__label{
+    color: green;
+    text-transform: uppercase;
+}
+
+// Modificador
+.user-avatar--big{
+    border: 5px solid black;
+}
+
+
+// HTML
+div.user-avatar.user-avatar--big
+  img.user-avatar__image
+  span.user-avatar__label
+```
+
+
 ### Buenas prácticas
 - Usar tabulaciones con dos espacios, son la única forma de garantizar que el código se reproduzca de la misma manera en cualquier entorno.
 - Al agrupar los selectores, mantenga los selectores individuales en una sola línea.
