@@ -9,8 +9,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 
-  <title>Título de página menor a 55 caracteres</title>
-  <meta name="description" content="Descripción de la página en menos de 150 caracteres">
+  <title>Título de página menor a 60 caracteres</title>
+  <meta name="description" content="Descripción de la página menor a 155 caracteres">
   <meta name="keywords" content="palabra clave 1, palabra clave 2 ...">
   <meta name="author" content="@UPCedu">
 
@@ -19,8 +19,38 @@
   <!-- Facebook Open Graph -->
 
   <!-- Twitter Card -->
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-XXXXXXX');
+  </script>
+  <!-- End Google Tag Manager -->
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header></header>
+  <section></section>
+  <footer></footer>
 
   <script src="example.js"></script>
 
@@ -59,21 +89,23 @@ Para diseño web responsivo
 ```
 
 **Título:**
-Google calcula el ancho de los caracteres usados en el título y los corta entre los 477 y 485 pixeles. El límite promedio en los títulos es de no más de 55 caracteres
+El límite en los títulos es no mayor a 60 caracteres. En ellos se indicará el contenido de la página y el dominio de su portal.
+> **Nota:** Si la definición de la página no puede acortarse a los cantidad indicada, los que se encuentren luego de los 60 caracteres deberán ser considerados dentro de la descripción.
 ```html
-<title>Título de página menor a 55 caracteres</title>
+<title>Malla curricular | Comunicación y Periodismo | Pregrado UPC</title>
 ```
 
 **Descripción:**
-Una meta descripción es proporcionada, es única y no posee más de 150 caracteres.
+Una meta descripción es proporcionada, es única y no es mayor a 155 caracteres. En ellos se definirá el contenido de la página incluyendo el nombre.
 ```html
-<meta name="description" content="Descripción de la página en menos de 150 caracteres">
+<meta name="description" content="Conoce la malla curricular de la carrera Comunicación y Periodismo de la UPC. Descubre una enseñanza integral que desarrolla tus habilidades.">
 ```
 
 **Palabras clave:**
-Las palabras clave se separan por comas
+Se deberá incluir entre 5 y 8 palabras clave, separadas por comas, relacionadas al contenido de la misma.
+> **Nota:** dentro de las palabras clave no se consideran tildes.
 ```html
-<meta name="keywords" content="palabra clave 1, palabra clave 2 ...">
+<meta name="keywords" content="Malla curricular comunicacion y periodismo, curricula periodismo upc, malla curricular periodismo, cursos comunicacion y periodismo, comunicacion y periodismo upc, cursos de periodismo, cursos de carrera periodismo">
 ```
 
 **Autor:**
@@ -84,7 +116,7 @@ Propietario de los derechos del código fuente de una página HTML
 
 **Incluir CSS y JavaScript:**
 Según la especificación de HTML5, no es necesario especificar un tipo cuando se incluyen archivos CSS y JavaScript, ya que `text/css` y `text/javascript` son valores predeterminados.
-> Todos los archivos CSS son cargados antes que cualquier archivo JavaScript 
+> **Nota:** Todos los archivos CSS son cargados antes que cualquier archivo JavaScript 
 (Excepto en los casos donde los archivos JS se cargan asíncronamente)
 ```html
 <!-- CSS -->
@@ -95,7 +127,7 @@ Según la especificación de HTML5, no es necesario especificar un tipo cuando s
 ```
 
 **Facebook Open Graph:** Las imágenes necesitan ser de al menos 600 x 315 pixeles, se recomienda 1200 x 630 pixeles.
-> Nota: Al usar og:image:width y og:image:height se especificaran las dimensiones de la imagen al crawler para que pueda desplegar la imagen inmediatamente sin tener que descargarla y procesarla asíncronamente.
+> **Nota:** Al usar og:image:width y og:image:height se especificaran las dimensiones de la imagen al crawler para que pueda desplegar la imagen inmediatamente sin tener que descargarla y procesarla asíncronamente.
 ```html
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://example.com/page.html">
@@ -121,6 +153,39 @@ Según la especificación de HTML5, no es necesario especificar un tipo cuando s
 <meta name="twitter:image" content="https://example.com/image.jpg">
 ```
 > [Twitter card validator](https://cards-dev.twitter.com/validator)
+
+**Google Tag Manager:**  
+Antes del cierre de la etiqueta `</head>`
+```html
+<!-- Google Tag Manager -->
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-XXXXXXX');
+</script>
+<!-- End Google Tag Manager -->
+```
+
+Después de abrir la etiqueta `<body>`
+```html
+<!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+```
 
 
 ### Buenas prácticas
