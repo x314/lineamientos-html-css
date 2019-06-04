@@ -225,5 +225,11 @@ Después de abrir la etiqueta `<body>`
 **W3C:** Todas las páginas necesitan ser aprobadas por el validador W3C para identificar posibles problemas en el código HTML.
 > [W3C validator](https://validator.w3.org/)
 
+**PageSpeed Insights:** Mejora la velocidad de tus páginas web en todos los dispositivos.
+> [Analizar](https://developers.google.com/speed/pagespeed/insights/)
+
+**Prueba de optimización para móviles:** Comprueba si un visitante puede usar fácilmente tu página en un dispositivo móvil. 
+> [Probar URL](https://search.google.com/test/mobile-friendly)
+
 **Verificador de enlaces:** No hay enlaces rotos en la página, verifica que no tienes ningún error 404.
 > [W3C Link Checker](https://validator.w3.org/checklink)
