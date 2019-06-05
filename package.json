@@ -1,0 +1,13 @@
+{
+  "name": "lineamientos-html-css",
+  "version": "1.0.0",
+  "description": "Estructura base para iniciar el desarrollo html y css",
+  "main": "index.html",
+  "repository": "https://github.com/x314/Lineamientos-html-css",
+  "author": "https://github.com/x314",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1"
+  }
+}
