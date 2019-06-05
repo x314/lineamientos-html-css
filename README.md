@@ -9,11 +9,6 @@ Todos los proyectos deben considerar las siguientes carcaterísticas.
   - Código Google Tag Manager
   - Facebook Open Graph y Twitter Card, si contamos con la información.
 
-### Empezando
-Ejecutar
-```bash
-yarn
-```
 
 ### Librerías de desarrollo
 - [jQuery 1.9.1 - 3](https://jquery.com/)
@@ -27,3 +22,15 @@ yarn
 > [CSS](css/README.md)
 
 > [SASS](sass/README.md)
+
+
+### Empezando
+Clonar el repositorio
+```bash
+$ git clone https://github.com/x314/Lineamientos-html-css.git
+```
+
+Instala las dependencias
+```bash
+$ yarn
+```
