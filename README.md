@@ -1,13 +1,12 @@
 # Lineamientos para el desarrollo HTML y CSS
-
-Todos los proyectos deben considerar las siguientes carcaterísticas.
+Conjunto de estándares a contemplar para el desarrollar HTML y CSS previo al lanzamiento de su sitio web a producción.
 - Desarrollo en base a grillas
 - Adaptarse a cualquier dispositivo.
 - Preprocesador SASS para trabajar el CSS
-- Pase a producción solo si cuenta con la siguiente información.
+- Contar con la siguiente información.
   - `title`, `description` y `keywords`
   - Código Google Tag Manager
-  - Facebook Open Graph y Twitter Card, si contamos con la información.
+  - Facebook Open Graph y Twitter Card, si contamos con las mismas.
 
 
 ### Librerías de desarrollo

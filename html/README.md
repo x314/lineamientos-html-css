@@ -14,7 +14,9 @@
   <meta name="keywords" content="palabra clave 1, palabra clave 2 ...">
   <meta name="author" content="@UPCedu">
 
-  <link rel="stylesheet" href="example.css">
+  <link rel="icon" type="image/png" href="https://example.com/favicon.png">
+
+  <link rel="stylesheet" href="css/main.css">
 
   <!-- Facebook Open Graph -->
 
@@ -58,66 +60,63 @@
 </html>
 ```
 
-**Doctype:**
-El doctype es HTML5 y se localiza arriba del todo en tus páginas HTML
+**Doctype:** El doctype es HTML5 y se localiza arriba del todo en tus páginas HTML
 ```html
 <!DOCTYPE html>
 ```
 
-**Atributo de idioma:**
-Indicamos el idioma definido para la página actual
+**Atributo de idioma:** Indicamos el idioma definido para la página actual
 ```html
 <html lang="es">
 ```
 
-**Codificación de caracteres:**
-Declaramos la codificación de juego de caracteres para el documento
+**Codificación de caracteres:** Declaramos la codificación de juego de caracteres para el documento
 ```html
 <meta charset="UTF-8">
 ```
 
-**Modo de compatibilidad IE:**
-Ordenamos a Internet Explorer usar su motor de renderizado más reciente
+**Modo de compatibilidad IE:** Ordenamos a Internet Explorer usar su motor de renderizado más reciente
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 ```
 
-**Viewport:**
-Para diseño web responsivo
+**Viewport:** Para diseño web responsivo
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 ```
 
-**Título:**
-El límite en los títulos es no mayor a 60 caracteres. En ellos se indicará el contenido de la página y el dominio de su portal.
+**Título:** El límite en los títulos es no mayor a 60 caracteres. En ellos se indicará el contenido de la página y el dominio de su portal.
 > **Nota:** Si la definición de la página no puede acortarse a los cantidad indicada, los que se encuentren luego de los 60 caracteres deberán ser considerados dentro de la descripción.
 ```html
 <title>Malla curricular | Comunicación y Periodismo | Pregrado UPC</title>
 ```
 
-**Descripción:**
-Una meta descripción es proporcionada, es única y no es mayor a 155 caracteres. En ellos se definirá el contenido de la página incluyendo el nombre.
+**Descripción:** Una meta descripción es proporcionada, es única y no es mayor a 155 caracteres. En ellos se definirá el contenido de la página incluyendo el nombre.
 ```html
 <meta name="description" content="Conoce la malla curricular de la carrera Comunicación y Periodismo de la UPC. Descubre una enseñanza integral que desarrolla tus habilidades.">
 ```
 
-**Palabras clave:**
-Se deberá incluir entre 5 y 8 palabras clave, separadas por comas, relacionadas al contenido de la misma.
+**Palabras clave:** Se deberá incluir entre 5 y 8 palabras clave, separadas por comas, relacionadas al contenido de la misma.
 > **Nota:** dentro de las palabras clave no se consideran tildes.
 ```html
 <meta name="keywords" content="Malla curricular comunicacion y periodismo, curricula periodismo upc, malla curricular periodismo, cursos comunicacion y periodismo, comunicacion y periodismo upc, cursos de periodismo, cursos de carrera periodismo">
 ```
 
-**Autor:**
-Propietario de los derechos del código fuente de una página HTML
+**Autor:** Propietario de los derechos del código fuente de una página HTML
 ```html
 <meta name="author" content="@UPCedu">
 ```
 
-**Incluir CSS y JavaScript:**
-Según la especificación de HTML5, no es necesario especificar un tipo cuando se incluyen archivos CSS y JavaScript, ya que `text/css` y `text/javascript` son valores predeterminados.
-> **Nota:** Todos los archivos CSS son cargados antes que cualquier archivo JavaScript 
-(Excepto en los casos donde los archivos JS se cargan asíncronamente)
+**Favicons:** Si solo tienes un `favicon.ico`, colocalo en la raíz de tu sitio. Normalmente no necesitarás usar ningún marcado. Sin embargo, es una buena práctica enlazarlo usando el ejemplo debajo. Actualmente, **se recomienda el formato PNG** sobre el formato `.ico` (dimensión: 32x32px).
+```html
+<!-- Favicon estandar -->
+<link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico">
+<!-- Formato favicon recomendado -->
+<link rel="icon" type="image/png" href="https://example.com/favicon.png">
+```
+
+**Incluir CSS y JavaScript:** Según la especificación de HTML5, no es necesario especificar un tipo cuando se incluyen archivos CSS y JavaScript, ya que `text/css` y `text/javascript` son valores predeterminados.
+> **Nota:** Todos los archivos CSS son cargados antes que cualquier archivo JavaScript (Excepto en los casos donde los archivos JS se cargan asíncronamente)
 ```html
 <!-- CSS -->
 <link rel="stylesheet" href="example.css">
@@ -177,7 +176,7 @@ Antes del cierre de la etiqueta `</head>`
 <!-- End Google Tag Manager -->
 ```
 
-Después de abrir la etiqueta `<body>`
+Justo después de abrir la etiqueta `<body>`
 ```html
 <!-- Google Tag Manager (noscript) -->
   <noscript>
@@ -187,8 +186,7 @@ Después de abrir la etiqueta `<body>`
   <!-- End Google Tag Manager (noscript) -->
 ```
 
-
-### Buenas prácticas
+### Reglas generales
 **Usar tabulaciones con dos espacios:** son la única forma de garantizar que el código se reproduzca de la misma manera en cualquier entorno.  
 **Siempre usar comillas dobles:** nunca comillas simples, en los atributos.  
 **No incluya una barra inclinada** en los elementos de cierre automático (por ejemplo, `<img>`).  

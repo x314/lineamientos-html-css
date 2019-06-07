@@ -35,8 +35,7 @@ div.user-avatar.user-avatar--big
   span.user-avatar__label
 ```
 
-
-### Buenas prácticas
+### Reglas generales
 - Usar tabulaciones con dos espacios, son la única forma de garantizar que el código se reproduzca de la misma manera en cualquier entorno.
 - Al agrupar los selectores, mantenga los selectores individuales en una sola línea.
 - Incluya un espacio antes de la apertura de los bloques de declaración para legibilidad.
@@ -210,3 +209,10 @@ Haz eso aquí si es lo sumamente importante.
 .element-heading { ... }
 .element--modifier { ... }
 ```
+
+
+### Pruebas CSS
+**W3C:** Todas las páginas necesitan ser aprobadas por el validador W3C para identificar posibles problemas en el código HTML.
+> [W3C validator](https://validator.w3.org/)
+
+Todas las páginas fueron probadas en todos los navegadores actuales (Chrome, Firefox, Edge, Safari...), navegadores móviles actuales (Navegador nativo, Chrome, Safari...) y Sistemas Operativos actuales (Windows, Mac, Android, iOS).
