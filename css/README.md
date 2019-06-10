@@ -213,6 +213,6 @@ Haz eso aquí si es lo sumamente importante.
 
 ### Pruebas CSS
 **W3C:** Todas las páginas necesitan ser aprobadas por el validador W3C para identificar posibles problemas en el código HTML.
-> [W3C validator](https://validator.w3.org/)
+> [W3C validator](https://jigsaw.w3.org/css-validator/)
 
 Todas las páginas fueron probadas en todos los navegadores actuales (Chrome, Firefox, Edge, Safari...), navegadores móviles actuales (Navegador nativo, Chrome, Safari...) y Sistemas Operativos actuales (Windows, Mac, Android, iOS).
