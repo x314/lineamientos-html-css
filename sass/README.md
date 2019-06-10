@@ -20,8 +20,7 @@ sass/
 |
 |-- components/
 |   |-- _login.scss
-|   |-- _profile
-.scss
+|   |-- _profile.scss
 |   ...
 |
 |-- vendor/

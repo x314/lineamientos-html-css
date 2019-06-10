@@ -1,5 +1,5 @@
 # Lineamientos para el desarrollo HTML y CSS
-Conjunto de estándares a contemplar para el desarrollar HTML y CSS previo al lanzamiento de su sitio web a producción.
+Conjunto de estándares a contemplar para desarrollar HTML y CSS previo al lanzamiento de su sitio web a producción.
 - Desarrollo en base a grillas
 - Adaptarse a cualquier dispositivo.
 - Preprocesador SASS para trabajar el CSS
@@ -14,8 +14,13 @@ Conjunto de estándares a contemplar para el desarrollar HTML y CSS previo al la
 - [Bootstrap](https://getbootstrap.com/docs/3.4/getting-started/)
 
 
-### Estándares para desarrollos consistentes, flexibles y sostenibles.
+### Prerrequisitos
+- [Nodejs](https://nodejs.org/es/)
+- [Yarn](https://yarnpkg.com/es-ES/docs/install)
+- [Sass](https://sass-lang.com/install)
 
+
+### Estándares para desarrollos consistentes, flexibles y sostenibles.
 > [HTML](html/README.md)
 
 > [CSS](css/README.md)
