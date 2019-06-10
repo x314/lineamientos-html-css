@@ -5,6 +5,7 @@
 
 // Base
 @import "base/variables";
+@import "base/mixins";
 
 
 // Layout
@@ -14,5 +15,5 @@
 
 
 // Components
-@import "components/user";
 @import "components/login";
+@import "components/profile";

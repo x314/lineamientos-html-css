@@ -35,3 +35,8 @@ $base-border: 1px solid $base-border-color;
 // Background Colors
 $base-background-color: #fff;
 $secondary-background-color: tint($base-border-color, 75%);
+
+// Response
+$break-small: 768px;
+$break-medium: 992px;
+$break-large: 1200px;
