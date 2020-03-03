@@ -27,6 +27,8 @@ Conjunto de estándares a contemplar para desarrollar HTML y CSS previo al lanza
 
 > [SASS](sass/README.md)
 
+> Usar Cloudinary para las imágenes
+
 
 ### Empezando
 Clonar el repositorio
