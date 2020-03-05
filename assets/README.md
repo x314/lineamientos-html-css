@@ -3,7 +3,7 @@
 Para las imágenes, videos y documentos usaremos la plataforma de [cloudinary](https://cloudinary.com/) 
 como CDN y optimización de imágenes.
 
-![Alt text](../assets/img/view-cloudinary.png?raw=true "Cloudinary")
+<!-- ![Alt text](../assets/img/view-cloudinary.png?raw=true "Cloudinary") -->
 
 Para un mejor lineamiento  las imágenes, videos y documentos deben estar:
 
@@ -97,43 +97,43 @@ pregrado/
 |-- carreras/
 |   |-- carrera-a/
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |   
 |
 |-- facultades/
 |   |-- facultad-a
 |   |   |-- videos/
-|   |   |-- img/
+|   |   |-- images/
 |   |   |-- doc/
 |   |
 |   |-- facultad-b
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |   
 |
 |-- modalidades/
 |   |-- modalidad-a
 |   |   |-- videos/
-|   |   |-- img/
+|   |   |-- images/
 |   |   |-- doc/
 |   |
 |   |-- modalidad-b
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |
 |   
 |-- eventos/
 |   |-- evento-a
 |   |    |-- videos/
-|   |    |-- img/
+|   |    |-- images/
 |   |    |-- doc/
 |   |
 |   |-- evento-b
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |   
 |
@@ -149,26 +149,26 @@ epe/
 |
 |-- admision-epe/
 |   |-- videos/
-|   |-- img/
+|   |-- images/
 |   |-- doc/
 |   
 |
 |-- carreras/
 |   |-- carrera-a/
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |   
 |     
 |-- eventos/
 |   |-- evento-a
 |   |    |-- videos/
-|   |    |-- img/
+|   |    |-- images/
 |   |    |-- doc/
 |   |
 |   |-- evento-b
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |   
 |   
@@ -184,36 +184,36 @@ institucional/
 |
 |-- directorio/
 |   |-- videos/
-|   |-- img/
+|   |-- images/
 |   |-- doc/
 |   
 |
 |-- noticias/
 |   |-- carrera-a/
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |
 |-- internas/
 |   |-- interna-a/
 |   |   |-- videos/
-|   |   |-- img/
+|   |   |-- images/
 |   |   |-- doc/
 |   |-- interna-a/
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |   
 |     
 |-- servicios/
 |   |-- evento-a
 |   |    |-- videos/
-|   |    |-- img/
+|   |    |-- images/
 |   |    |-- doc/
 |   |
 |   |-- evento-b
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |   
 |   
@@ -232,12 +232,12 @@ landings/
 |---
 |   |-- landing-a/
 |   |   |-- videos/
-|   |   |-- img/
+|   |   |-- images/
 |   |   |-- doc/
 |   |
 |   |-- landing-b/
 |       |-- videos/
-|       |-- img/
+|       |-- images/
 |       |-- doc/
 |  
 |
