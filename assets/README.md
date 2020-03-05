@@ -38,7 +38,7 @@ Para Videos
 
 #### Cloudinary
 
-Al momento de acceder a la plataforma seleccionar la pestaña de "Media Library"
+Al momento de acceder a la [plataforma](https://cloudinary.com/) seleccionar la pestaña de "Media Library"
 se mostrara los repositorios de las páginas UPC inluido los Open Portals 
 como se muestran en la imagen.
 
