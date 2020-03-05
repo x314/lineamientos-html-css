@@ -27,7 +27,7 @@ Conjunto de estándares a contemplar para desarrollar HTML y CSS previo al lanza
 
 > [SASS](sass/README.md)
 
-> Usar Cloudinary para las imágenes
+> [ASSETS](assets/README.md) Usar Cloudinary para las imágenes,videos y documentos.
 
 
 ### Empezando
