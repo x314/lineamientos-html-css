@@ -44,7 +44,7 @@ como se muestran en la imagen.
 
 ![Alt text](../assets/img/cloudinary1.png?raw=true "Cloudinary1")
 
-Para agregar Imágenes y videos seleccionar la opción "Upload"
+Para agregar archivos(imágenes,videos y documentos) seleccionar la opción "Upload"
 
 ![Alt text](../assets/img/cloudinary-upload.png?raw=true "Cloudinary1")
 
@@ -86,6 +86,27 @@ img-globales/
         |-- instagram.png/
         |-- twitter.png/
   
+
+````
+Para landings en general
+
+````text
+landings/
+|
+|---
+|   |-- landing-a/
+|   |   |-- videos/
+|   |   |-- images/
+|   |   |-- doc/
+|   |
+|   |-- landing-b/
+|       |-- videos/
+|       |-- images/
+|       |-- doc/
+|  
+|
+|-- OG/
+    |-- img-para-metadata.jpg
 
 ````
 
@@ -223,28 +244,6 @@ institucional/
 
 ````
 
-
-Para otros landings
-
-````text
-landings/
-|
-|---
-|   |-- landing-a/
-|   |   |-- videos/
-|   |   |-- images/
-|   |   |-- doc/
-|   |
-|   |-- landing-b/
-|       |-- videos/
-|       |-- images/
-|       |-- doc/
-|  
-|
-|-- OG/
-    |-- img-para-metadata.jpg
-
-````
 
 Para Opens Portals con CMS's
 
