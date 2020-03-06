@@ -1,4 +1,4 @@
-# Lineamientos  imágenes,videos y documentos
+# Lineamientos para las imágenes,videos y documentos
 
 Para las imágenes, videos y documentos usaremos la plataforma de [cloudinary](https://cloudinary.com/) 
 como CDN y optimización de imágenes.
